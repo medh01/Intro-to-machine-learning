@@ -14,7 +14,8 @@ There are three types of machine learning:
 
 # supervised machine learning
 Supervised machine learning is used with labeled datasets to predict a target y based on features X
-Now let's define these terms: 
+Now let's define these terms:
+* a dataset: a collection of data 
 * a target: The variable that we want to predict (output). We call all the entries of the target column labels. 
 * features: All the variables other than the target (input) 
 * labeled dataset: It's a dataset that consists of input and ouput that means the target variable is already known
@@ -33,6 +34,29 @@ There are two types of supervised learning:
 * regression: target variable is continuous (for example a numerical target)
 
 [Read more about classification and regression](https://www.datacamp.com/blog/classification-machine-learning)
+
+
+# unsupervised machine learning
+Unsupervised machine learning is learning by making use of unlabeled data. Unlabeled data have an unknown outcome (we only have input, the target is unknown). So, unsupervised machine learning is about figuring out structure in unlabeled data and finding patterns.
+<br>The picture below is for further clarification 
+
+![](https://blog.vinbigdata.org/wp-content/uploads/2021/03/unsupervised-learning.png)
+
+Unsupervised machine learning can be divided into clustering, density estimation and dimensionality reduction.
+That being said what's the difference between supervised and unsupervised learning?
+<br>The table below summarizes the main differences: 
+| supervised learning | unsupervised learning |
+| ------------------- | --------------------- |
+| input data is labeled | input data is unlabeled |
+| uses training dataset | uses just input dataset |
+| used for prediction | used for analysis |
+| classification and regression | clustering, density estimation and dimensionality reduction |
+
+
+
+
+
+
 
 
 
